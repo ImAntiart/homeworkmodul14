@@ -1,0 +1,84 @@
+@import url(./fonts/fonts.css);
+:root {
+  --font-manrope-m: 'Manrope medium';
+  --font-manrope-r: 'Manrope regular';
+  --font-manrope-s-b: 'Manrope semi-bold';
+
+  --darkColor: #fff;
+  --dark10: #070708;
+  --dark20: #0e0e10;
+  --dark30: #1c1c21;
+  --dark40: #2f2f37;
+  --dark50: #474752;
+
+/* 
+  --dark-03: #070708;
+  --dark-06: #0e0e10;
+  --dark-12: #1c1c21;
+  --dark-20: #2f2f37;
+  --dark-30: #474752; */
+
+  --light-03: #fffafa;
+
+  --light-12: #fffff0;
+
+  --grey-40: #62646c;
+  --grey-50: #797c86;
+  --grey-70: #afb0b6;
+  --grey-80: #cacace;
+  --grey-90: #e4e4e6;
+  --grey-95: #f2f2f3;
+  --grey-97: #f7f7f8;
+  --grey-99: #fcfcfd;
+
+  --lightColor: #1c1c1c;
+  --light10: #F8F7F8; /* очень светло-серый */
+  --light20: #EFEFF2; /* светло-серый */
+  --light30: #E4E4E9; /* серо-голубой */
+  --light40: #D6D6DF; /* серый с голубым оттенком */
+  --light50: #CBCBDB; /* средне-серый с фиолетовым оттенком */
+
+  --purple-55: #4a2ced;
+  --purple-60: #5e43ef;
+  --purple-70: #8672f3;
+  --purple-80: #aea1f7;
+  --purple-90: #d6d0fb;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+/*   max-width: 1920px; */
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.dark {
+  background-color: var(--dark10);
+  color: var(--darkColor);
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.light {
+  background-color: var(--light50);
+  color: var(--lightColor);
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}

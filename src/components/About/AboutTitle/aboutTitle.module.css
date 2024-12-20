@@ -1,0 +1,33 @@
+.container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.imgAboutTitle {
+  height: 40px;
+}
+.h2AboutTitle {
+  margin: 0;
+  font-family: var(--font-manrope-m);
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: var(--grey-80);
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+@media (max-width: 1440px) {
+  .imgAboutTitle {
+    height: 30px;
+  }
+  .h2AboutTitle {
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    max-height: 27px;
+  }
+}

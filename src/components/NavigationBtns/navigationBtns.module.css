@@ -1,0 +1,73 @@
+.container {
+  border-radius: 100px;
+  padding: 10px;
+
+  max-height: 82px;
+  width: 40%;
+  height: auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.dark {
+  background: var(--dark-03);
+  border: 1px solid var(--dark-12);
+}
+.light {
+  background: var(--purple-55);
+  border: 1px solid var(--purple-70);
+}
+.arrow {
+  border-radius: 100px;
+  width: 62px;
+  height: 62px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+.arrowDark {
+  background: var(--dark-12);
+}
+.arrowLight {
+  background: var(--purple-70);
+}
+.arrow:hover,
+.arrow img:hover {
+  background: var(--purple-60);
+}
+.arrow:active,
+.arrow img:active {
+  -webkit-transform: scale(0.98);
+  -ms-transform: scale(0.98);
+  transform: scale(0.98);
+  background: var(--purple-70);
+}
+@media (max-width: 1440px) {
+  .container {
+    width: 124px;
+    height: 64px;
+    padding: 8px;
+  }
+  .arrow {
+    width: 48px;
+    height: 48px;
+  }
+}

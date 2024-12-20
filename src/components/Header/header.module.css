@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+
+  border-bottom: 1px solid var(--dark-12);
+}
+.headerWrapper {
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  justify-content: space-between;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  width: 87%;
+  height: 119px;
+  margin: 0 auto;
+  border-left: 1px solid var(--dark30);
+  border-right: 1px solid var(--dark30);
+}
+@media (max-width: 1440px) {
+  .headerWrapper {
+    height: 89px;
+    width: 91%;
+  }
+}
