@@ -6,7 +6,7 @@
   /* width: 100vw; */
   /* max-width: 1920px; */
   width: 100%;
-  background-color: var(--dark-06);
+  background-color: var(--dark20);
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -86,14 +86,20 @@
   font-weight: 400;
   text-transform: uppercase;
   font-family: var(--font-manrope-r);
-  color: var(--purple-90);
+/*   color: var(--purple-90); */
+}
+
+.linkRunLine.light {
+  color: var(--darkColor);
 }
 
 .dark {
-  background-color: var(--dark-06);
+  background-color: var(--dark20);
+  color: var(--purple-90);
 }
 .light {
-  background: var(--purple-55);
+  background: var(--grey-90);
+  color: var(--lightColor);
 }
 .reverce {
   animation-direction: reverse;
@@ -108,7 +114,7 @@
     height: 30px;
   }
   .linkRunLine {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 }
 @media (max-width: 1024px) {
@@ -128,7 +134,7 @@
     height: 27px;
   }
   .linkRunLine {
-    font-size: 0.75rem;
+    font-size: 0.65rem;
   }
 }
 @media (max-width: 768px) {
@@ -140,7 +146,7 @@
     height: 16px;
   }
   .linkRunLine {
-    font-size: 0.55rem;
+    font-size: 0.45rem;
   }
 }
 @media (max-width: 456px) {
@@ -149,6 +155,9 @@
   }
   .categories li img {
     display: none;
+  }
+  .linkRunLine {
+    font-size: 0.30rem;
   }
 }
 @-webkit-keyframes rotateStar {

@@ -1,4 +1,11 @@
 @import url(./fonts/fonts.css);
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
 :root {
   --font-manrope-m: 'Manrope medium';
   --font-manrope-r: 'Manrope regular';
@@ -75,8 +82,9 @@ p {
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
+
 .light {
-  background-color: var(--light50);
+  background-color: var(--light10);
   color: var(--lightColor);
   -webkit-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;

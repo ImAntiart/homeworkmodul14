@@ -15,10 +15,10 @@
   width: 100%;
 }
 .dark {
-  background: var(--dark-06);
+  background: var(--dark10);
 }
 .light {
-  background: var(--purple-55);
+  background: var(--grey-40);
 }
 @media (max-width: 768px) {
   .container {

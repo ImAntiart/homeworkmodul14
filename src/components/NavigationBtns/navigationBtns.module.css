@@ -18,12 +18,12 @@
   box-sizing: border-box;
 }
 .dark {
-  background: var(--dark-03);
-  border: 1px solid var(--dark-12);
+  background: var(--dark10);
+  border: 1px solid var(--dark30);
 }
 .light {
-  background: var(--purple-55);
-  border: 1px solid var(--purple-70);
+  background: var(--grey-40);
+  border: 1px solid var(--grey-50);
 }
 .arrow {
   border-radius: 100px;
@@ -44,21 +44,21 @@
   cursor: pointer;
 }
 .arrowDark {
-  background: var(--dark-12);
+  background: var(--dark30);
 }
 .arrowLight {
-  background: var(--purple-70);
+  background: var(--grey-70);
 }
 .arrow:hover,
 .arrow img:hover {
-  background: var(--purple-60);
+  background: var(--grey-80);
 }
 .arrow:active,
 .arrow img:active {
   -webkit-transform: scale(0.98);
   -ms-transform: scale(0.98);
   transform: scale(0.98);
-  background: var(--purple-70);
+  background: var(--grey-90);
 }
 @media (max-width: 1440px) {
   .container {

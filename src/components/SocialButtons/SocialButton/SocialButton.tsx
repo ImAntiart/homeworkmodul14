@@ -18,7 +18,7 @@ const SocialButton: FC<Props> = ({ icon }) => {
           height: '20px',
         }}
         src={icon}
-        alt="socialButton"
+        alt="иконки соц сетей"
       />
     </a>
   );

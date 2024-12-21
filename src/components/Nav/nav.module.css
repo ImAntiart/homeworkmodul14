@@ -10,10 +10,10 @@
 }
 
 .links {
-  display: inline-flex;
   display: -webkit-inline-box;
   display: -moz-inline-box;
   display: -ms-inline-flexbox;
+  display: inline-flex;
   list-style-type: none;
   padding-left: 0;
   width: 100%;
@@ -40,7 +40,7 @@
   transition: all 0.5s ease-out;
 }
 .activeLight {
-  background-color: var(--purple-70);
+  background-color: var(--grey-80);
   -webkit-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;

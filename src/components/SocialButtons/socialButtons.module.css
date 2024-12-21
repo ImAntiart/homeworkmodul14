@@ -17,12 +17,12 @@
   cursor: pointer;
 }
 .dark {
-  background: var(--dark-03);
-  border: 1px solid var(--dark-12);
+  background: var(--dark10);
+  border: 1px solid var(--dark30);
 }
 .light {
-  background: var(--purple-55);
-  border: 1px solid var(--purple-70);
+  background: var(--grey-40);
+  border: 1px solid var(--grey-50);
 }
 @media (max-width: 1440px) {
   .container {

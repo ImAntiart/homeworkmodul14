@@ -5,8 +5,8 @@ import BurgerMenu from './BurgerMenu/BurgerMenu';
 import { useState } from 'react';
 
 const BurgerContainer = styled.div`
-  border-left: 1px solid var(--dark-12);
-  border-top: 1px solid var(--dark-12);
+  border-left: 1px solid var(--dark30);
+  border-top: 1px solid var(--dark30);
   border-radius: 20px 0 0 0;
   padding: 20px;
   max-width: 68px;

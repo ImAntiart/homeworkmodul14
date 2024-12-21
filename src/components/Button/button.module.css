@@ -21,23 +21,23 @@
   align-items: center;
 }
 .dark {
-  background-color: var(--dark-12);
+  background-color: var(--dark30);
 }
 .light {
-  background-color: var(--purple-70);
+  background-color: var(--grey-40);
 }
 
 .btn.dark:hover {
   background-color: var(--grey-40);
 }
 .btn.dark:active {
-  background-color: var(--dark-30);
+  background-color: var(--dark50);
 }
 .btn.light:hover {
-  background-color: var(--purple-60);
+  background-color: var(--grey-40);
 }
 .btn.light:active {
-  background-color: var(--purple-55);
+  background-color: var(--grey-70);
 }
 
 @media (max-width: 1024px) {

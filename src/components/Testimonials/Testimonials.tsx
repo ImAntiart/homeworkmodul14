@@ -17,13 +17,13 @@ const Testimonials: FC<Props> = ({ reviews }) => {
     <div className={style.container}>
       <div className={style.firstLineWrapper}>
         <TitlePart
-          namePart="Testimonials"
-          headPart="What my Fans say"
+          namePart="Отзывы"
+          headPart="Что мне пишут клиенты"
           isNavigatyBtns={false}
           isButton={false}
         />
         <TitlePart
-          namePart="Total Reviews"
+          namePart="Количество отзывов"
           headPart={'' + reviews.length}
           isNavigatyBtns={true}
           isButton={true}

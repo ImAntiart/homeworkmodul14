@@ -71,7 +71,7 @@
   color: var(--grey-80);
 }
 .light {
-  color: var(--purple-70);
+  color: var(--grey-40);
 }
 .dark {
   color: var(--grey-80);
@@ -110,7 +110,7 @@
   font-size: 1.1rem;
   text-transform: uppercase;
   cursor: pointer;
-  border-bottom: 1px solid var(--dark-20);
+  border-bottom: 1px solid var(--dark40);
 }
 .aBtn img {
   width: 24px;

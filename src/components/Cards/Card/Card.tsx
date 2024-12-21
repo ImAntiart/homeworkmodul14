@@ -34,7 +34,7 @@ const Card: FC<Props> = ({ album, isFull }) => {
         </div>
         <div className={style.divInfoBtn}>
           <a className={style.aBtn}>
-            View more <img src={arrow}></img>
+            Посмотреть <img src={arrow}></img>
           </a>
         </div>
       </div>

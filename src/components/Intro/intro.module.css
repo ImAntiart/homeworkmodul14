@@ -3,7 +3,7 @@
   height: 920px;
   margin: 0 auto;
 }
-
+  
 .introName {
   max-height: 328px;
   height: 100%;
@@ -28,30 +28,30 @@
   font-family: var(--font-manrope-m);
   text-transform: uppercase;
   font-size: 1.4rem;
-  color: var(--grey-40);
+/*   color: var(--grey-40); */
 }
+
 .introNameWrapper h1 {
   margin: 0;
   font-family: var(--font-manrope-s-b);
   font-size: 4rem;
   text-transform: uppercase;
-  color: var(--grey-90);
+/*   color: var(--grey-90); */
 }
+
 .introLabelWrapper {
   -ms-flex-item-align: center;
   align-self: center;
-
   max-width: 346px;
   width: 100%;
 }
+
+
 .introRunLine {
-  /* height: 13%; */
   max-height: 80px;
   height: 100%;
-  /* max-width: 100%; */
   width: 100%;
-  background-color: var(--dark-06);
-  /* margin-left: -5.5%; */
+  background-color: var(--dark20);
 }
 .introFotos {
   width: 100%;
@@ -59,6 +59,14 @@
   height: 100%;
   border-radius: 11px;
 }
+
+.introLabelWrapper img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 
 @media (max-width: 1440px) {
   .container {
@@ -106,7 +114,6 @@
   }
   .introRunLine {
     max-width: 1280px;
-    /* max-height: 62px; */
   }
   .introFotos {
     max-height: 350px;

@@ -22,9 +22,9 @@ const Reviews: FC<Props> = ({ reviews, move }) => {
   }, [move]);
 
   const checkPos = () => {
-    let prevIndex = position[0];
-    let currIndex = position[1];
-    let nextIndex = position[2];
+    const prevIndex: number = position[0];
+    const currIndex: number = position[1];
+    const nextIndex: number = position[2];
 
     const arrRev = [
       isScreenMd ? null : reviews[prevIndex],

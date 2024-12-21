@@ -40,7 +40,7 @@
 .linkWrapper {
   width: 52px;
   height: 52px;
-  border: 1px solid var(--dark-12);
+  border: 1px solid var(--dark30);
   border-radius: 100px;
   -ms-flex-item-align: start;
   align-self: flex-start;
@@ -65,7 +65,7 @@
   background-color: var(--grey-40);
 }
 .linkWrapper:active {
-  background-color: var(--dark-30);
+  background-color: var(--dark50);
 }
 
 .qaWrapper {
@@ -97,7 +97,7 @@
   overflow: scroll;
 }
 .lightQuestion {
-  color: var(--purple-70);
+  color: var(--grey-40);
 }
 .darkQuestion {
   color: var(--grey-80);
@@ -110,7 +110,7 @@
   overflow: scroll;
 }
 .lightAnswer {
-  color: var(--purple-55);
+  color: var(--lightColor);
 }
 .darkAnswer {
   color: var(--grey-50);

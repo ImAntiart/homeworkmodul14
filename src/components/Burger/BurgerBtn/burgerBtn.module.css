@@ -18,10 +18,10 @@
   transition: 0.2s;
 }
 .dark {
-  background: var(--dark-abs-white);
+  background: var(--darkColor);
 }
 .light {
-  background: var(--dark-03);
+  background: var(--dark10);
 }
 .line:nth-child(2) {
   top: 50%;

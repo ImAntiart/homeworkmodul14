@@ -20,7 +20,7 @@
 }
 .discoFirstLine {
   height: 180px;
-  border-bottom: 1px solid var(--dark-12);
+  border-bottom: 1px solid var(--dark30);
 }
 .discoSecondLine {
   max-width: 1597px;

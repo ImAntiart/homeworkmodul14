@@ -2,7 +2,7 @@
   border-radius: 100px;
   width: 48px;
   height: 48px;
-  background: var(--dark-12);
+  background: var(--dark30);
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -17,22 +17,22 @@
   align-items: center;
 }
 .dark {
-  background: var(--dark-12);
+  background: var(--dark30);
 }
 .light {
-  background: var(--purple-70);
+  background: var(--light50);
 }
 .aLink.dark:hover {
   background-color: var(--grey-40);
 }
 .aLink.dark:active {
-  background-color: var(--dark-30);
+  background-color: var(--dark50);
 }
 .aLink.light:hover {
-  background-color: var(--purple-60);
+  background-color: var(--grey-70);
 }
 .aLink.light:active {
-  background-color: var(--purple-55);
+  background-color: var(--grey-90);
 }
 
 @media (max-width: 1440px) {

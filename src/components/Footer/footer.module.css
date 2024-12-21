@@ -1,7 +1,8 @@
 .container {
-  margin: 200px auto auto auto;
-  width: 100%;
-  height: auto;
+/*   margin: 200px auto auto auto; */
+  padding: 20px;
+  max-width: 100%;
+  max-height: 100%;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -12,14 +13,15 @@
   -moz-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: justify;
+/*   -webkit-box-pack: justify;
   -moz-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
+
 .logoFooterWrapper {
   width: 100%;
-  max-height: 393px;
+/*   max-height: 393px; */
   height: 100%;
   margin: 0 auto;
   display: -webkit-box;
@@ -44,6 +46,12 @@
   height: 213px;
   margin: 0 auto;
 }
+
+.logoWrapper img{
+  width: 30%;
+  height: auto;
+}
+
 .logoWrapper div {
   display: -webkit-box;
   display: -moz-box;
@@ -67,13 +75,15 @@
   -moz-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+/*   justify-content: center;
+  align-items: center; */
   margin: 0 auto;
 }
 .mainFooterBlockOne {
   margin: 0 auto;
   width: 83.1%;
-  height: 455px;
-  /* height: 100%; */
+/*   height: 455px; */
+  height: 100%;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -88,16 +98,19 @@
   align-items: center;
 }
 .footerLinksBlock {
+  display: flex;
+  justify-content: space-between;
   /* max-width: 952px; */
   max-width: 60%;
   width: 100%;
   height: 100%;
-  /* padding: 100px 80px; */
+  padding: 100px 80px;
   padding: 6.3% 5%;
+
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  border: 1px solid var(--dark-12);
+  border: 1px solid var(--dark30);
 }
 .linksWrapper {
   width: 100%;
@@ -110,12 +123,13 @@
   -moz-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  
 }
 .footerButtonWrapper {
-  /* max-width: 644px; */
+/*   max-width: 644px; */
   max-width: 40%;
-  width: 100%;
-  max-height: 455px;
+/*   width: 100%; */
+/*   max-height: 455px; */
   height: 100%;
   display: -webkit-box;
   display: -moz-box;
@@ -136,7 +150,7 @@
   -moz-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  border: 1px solid var(--dark-12);
+  border: 1px solid var(--dark30);
 }
 .footerButtonWrapper div {
   -ms-flex-item-align: start;
@@ -151,13 +165,18 @@
   color: var(--grey-50);
 }
 .mainFooterBlockTwo {
-  max-height: 107px;
+display: flex;
+align-items: center;
+justify-content: center;
+/*   max-height: 107px; */
   height: 100%;
-  border-top: 1px solid var(--dark-12);
+  border-top: 1px solid var(--dark30);
 }
 .blockTwoWrapper {
   margin: 0 auto;
+padding: 20px;
   width: 83.1%;
+/* width: 100%; */
   height: 100%;
   display: -webkit-box;
   display: -moz-box;
@@ -166,11 +185,13 @@
   -webkit-box-pack: justify;
   -moz-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
+  justify-content: space-around;
+  align-items: center;
+/*   -webkit-box-align: center;
   -moz-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
+  align-items: center; */
+/*   gap: 100px; */
 }
 .footerTermsBlock {
   max-width: 300px;
@@ -196,7 +217,7 @@
 .footerTerms {
   width: 173px;
   height: 100%;
-  border-right: 1px solid var(--dark-12);
+  border-right: 1px solid var(--dark30);
 }
 .footerCopyBlock {
   max-width: 450px;
@@ -301,6 +322,32 @@
     gap: 16px;
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    height: auto !important;
+  }
+  .mainFooterBlock {
+    height: 100%;
+  }
+  .mainFooterBlockTwo {
+    max-height: 200px;
+  }
+  .footerLinksBlock {
+    padding: 9% 5.4%;
+    height: 568px;
+  }
+  .linksWrapper {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    gap: 30px;
+  }
+}
+
 
 @media (max-width: 610px) {
   .container {

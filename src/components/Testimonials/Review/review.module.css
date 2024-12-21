@@ -26,12 +26,12 @@
   align-items: center;
 }
 .dark {
-  background: var(--dark-06);
-  border: 1px solid var(--dark-12);
+  background: var(--dark10);
+  border: 1px solid var(--dark30);
 }
 .light {
-  background: var(--purple-55);
-  border: 1px solid var(--purple-70);
+  background: var(--grey-70);
+  border: 1px solid var(--grey-50);
 }
 .firstLine {
   max-width: 432.33px;
@@ -77,7 +77,7 @@
   color: var(--grey-40);
 }
 .statePersonLight {
-  color: var(--dark-03);
+  color: var(--dark10);
 }
 .secondtLine {
   max-width: 140px;

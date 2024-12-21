@@ -20,12 +20,31 @@
   height: 950px;
 }
 
+.dark {
+  color: var(--darkColor); 
+  }
+  
+  .light {
+  color: var(--lightColor); 
+  }
+
 .aboutFirstLine {
   width: 100%;
   max-height: 160px;
   height: 100%;
   border-bottom: 1px solid var(--dark30);
 }
+
+.aboutFirstLine.light {
+  width: 100%;
+  max-height: 160px;
+  height: 100%;
+  border-bottom: 1px solid var(--dark30);
+  color: var(--lightColor); 
+}
+
+
+
 .aboutTitle {
   display: flex;
   display: -webkit-box;
@@ -48,6 +67,18 @@
   display: -ms-flexbox;
   display: flex;
 }
+
+.aboutSecondLine.light {
+  width: 100%;
+  max-height: 710px;
+  height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: var(--lightColor); 
+}
+
 .aboutDivFoto {
   display: grid;
   width: 50%;
@@ -97,8 +128,14 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
-  color: var(--grey-70);
+/*   color: var(--grey-70); */
 }
+
+.aboutIntroFirstLine.light p {
+  color: var(--lightColor); /* Цвет текста для светлой темы */
+  }
+
+
 .btnWrapper {
   width: 163px;
   height: 59px;
@@ -124,6 +161,12 @@
   justify-content: flex-start;
   gap: 40px;
 }
+
+.aboutIntroSecondLine.light p {
+  color: var(--lightColor); /* Цвет текста для светлой темы */
+  }
+  
+
 .aboutDivEP {
   display: -webkit-box;
   display: -moz-box;
@@ -154,14 +197,14 @@
   font-weight: 500;
   font-size: 1.1rem;
   line-height: 150%;
-  color: var(--grey-90);
+/*   color: var(--grey-90); */
 }
 .aboutValueEP {
   font-family: var(--font-manrope-r);
   font-weight: 400;
   font-size: 1.2rem;
   line-height: 150%;
-  color: var(--grey-70);
+/*   color: var(--grey-70); */
 }
 .aboutSocialWrapper {
   display: -webkit-box;

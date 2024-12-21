@@ -33,18 +33,18 @@ const HomePage: FC<Props> = ({ data }) => {
         <Discography
           objBtn={[btn[3]]}
           discography={data.albums}
-          namePart="Albums"
-          headPart="Explore my Albums."
+          namePart="Сайты"
+          headPart="Посетите мои сайты"
         />
         <Discography
           objBtn={[btn[4]]}
           discography={data.singles}
-          namePart="Singles"
-          headPart="Explore my Singles."
+          namePart="Макеты"
+          headPart="Просмотрите мои макеты"
         />
         <FAQs
-          namePart="FAQ'S"
-          headPart="Frequently asked questions"
+          namePart="ЧАВО"
+          headPart="часто задаваемые вопросы и ответы"
           isNavigatyBtns={false}
           isButton={false}
           faqs={data.faqs}

@@ -1,17 +1,23 @@
+import { useContext } from 'react';
+import { ThemeContext } from '../../../AppRouter';
 import arrow from '../../../icons/arrow.png';
 import style from './introBtn.module.css';
+
 const IntroBtn = () => {
-  return (
-    <div className={style.introButtonWrapper}>
-      <p className={style.introBtnP}>
-        Let's
-        <a className={style.link}>
-          <img src={arrow} alt="arrow" />
-        </a>{' '}
-        listen together
-      </p>
-    </div>
+const themeContext = useContext(ThemeContext);
+const theme = themeContext?.theme === 'dark' ? style.dark : style.light;
+
+return (
+  <div className={`${style.introButtonWrapper} ${style[theme]}`}>
+  <p className={`${style.introBtnP} ${style[theme]}`}>
+  Давайте
+  <a className={style.link}>
+  <img src={arrow} alt="стрелочка" />
+  </a>{' '}
+  <div>Работать вместе</div>
+  </p>
+  </div>
   );
-};
+  };
 
 export default IntroBtn;

@@ -14,8 +14,8 @@ const BurgerMenuContainer = styled.div`
   right: 4.3%;
   width: 30%;
   height: auto;
-  background: var(--dark-06);
-  border: 1px solid var(--dark-12);
+  background: var(--dark20);
+  border: 1px solid var(--dark30);
   border-radius: 12px 0 12px 12px;
   display: flex;
   justify-content: space-around;
@@ -61,15 +61,15 @@ const BurgerMenu: FC<Props> = ({ isOpen, setIsOpen }) => {
     textDecoration: 'none',
     color: 'var(--light-03)',
     padding: '6px 0px',
-    borderBottom: '1px solid var(--dark-20)',
+    borderBottom: '1px solid var(--dark40)',
   };
 
   return isOpen ? (
     <BurgerMenuContainer
       style={
         currentTheme?.theme === 'light'
-          ? { background: 'var(--purple-55)' }
-          : { background: 'var(--dark-06)' }
+          ? { background: 'var(--grey-40)' }
+          : { background: 'var(--dark20)' }
       }
     >
       <BurgerMenuList>

@@ -17,6 +17,16 @@
   -ms-flex-item-align: center;
   align-self: center;
 }
+
+
+.dark .h2AboutTitle {
+  color: var(--grey-70); /* Цвет текста для темной темы */
+  }
+  
+  .light .h2AboutTitle {
+  color: var(--lightColor);/* Цвет текста для светлой темы */
+  }
+  
 @media (max-width: 1440px) {
   .imgAboutTitle {
     height: 30px;

@@ -19,7 +19,7 @@
 }
 .firstLineWrapper {
   height: 39%;
-  border-bottom: 1px solid var(--dark-12);
+  border-bottom: 1px solid var(--dark30);
 }
 @media (max-width: 1440px) {
   .container {

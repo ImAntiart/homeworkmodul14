@@ -1,3 +1,5 @@
+
+
 .introButtonWrapper {
   max-width: 484px;
   width: 100%;
@@ -17,8 +19,7 @@
 .introBtnP {
   margin: 0;
   font-family: var(--font-manrope-s-b);
-  font-size: 3.4rem;
-  color: var(--grey-90);
+  font-size: 3rem;
   text-transform: uppercase;
   display: -webkit-box;
   display: -moz-box;
@@ -31,6 +32,33 @@
   -ms-flex-pack: start;
   justify-content: flex-start;
   gap: 5px;
+}
+
+.introBtnP span {
+  margin: 0;
+  font-family: var(--font-manrope-s-b);
+  font-size: 3rem;
+/*   color: var(--darkColor); */
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -moz-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.introBtnP.dark span {
+  color: var(--darkColor);
+}
+
+.introBtnP.light span {
+  color: var(--lightColor);
 }
 
 .link {
@@ -69,6 +97,14 @@
   height: 20.62px;
 }
 
+.dark {
+  color: var(--darkColor);
+  }
+  
+  .light {
+  color:var(--lightColor);
+  }
+
 @media (max-width: 1440px) {
   .introButtonWrapper {
     max-width: 401px;
@@ -76,9 +112,7 @@
   .introBtnP {
     font-size: 2.75rem;
   }
-  /* .introButtonWrapper p {
-    font-size: 2.75rem;
-  } */
+
   .link {
     max-width: 104px;
     height: 56px;
@@ -91,9 +125,7 @@
   .introBtnP {
     font-size: 2.1rem;
   }
-  /* .introButtonWrapper p {
-    font-size: 2.1rem;
-  } */
+
 }
 @media (max-width: 768px) {
   .introButtonWrapper {
@@ -105,9 +137,7 @@
   .introBtnP {
     font-size: 1.95rem;
   }
-  /* .introButtonWrapper p {
-    font-size: 1.95rem;
-  } */
+
 }
 @media (max-width: 480px) {
   .link {
@@ -117,7 +147,4 @@
   .introBtnP {
     font-size: 1.75rem;
   }
-  /* .introButtonWrapper p {
-    font-size: 1.75rem;
-  } */
 }
