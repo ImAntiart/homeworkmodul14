@@ -1,8 +1,8 @@
+import style from './switch.module.css';
+import sun from '../../icons/1.darkTheme.svg';
+import moon from '../../icons/2.lightTheme.svg';
 import { FC, useContext } from 'react';
 import { ThemeContext } from '../../AppRouter';
-import style from './switch.module.css';
-import sun from '../../icons/sun.svg';
-import moon from '../../icons/moon.svg';
 import { useResize } from '../../hooks/useResize';
 import { createClassNameByTheme } from '../../modules/modules';
 
