@@ -1,4 +1,4 @@
-import { Dispatch, FC, useContext } from 'react';
+import { FC, useContext } from 'react';
 import styled from 'styled-components';
 import SwitchTheme from '../../Switch/SwitchTheme';
 import { ActiveContext, ThemeContext } from '../../../AppRouter';

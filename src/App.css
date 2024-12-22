@@ -5,7 +5,6 @@ html {
   width: 100%;
 }
 
-
 :root {
   --font-manrope-m: 'Manrope medium';
   --font-manrope-r: 'Manrope regular';
@@ -18,15 +17,7 @@ html {
   --dark40: #2f2f37;
   --dark50: #474752;
 
-/* 
-  --dark-03: #070708;
-  --dark-06: #0e0e10;
-  --dark-12: #1c1c21;
-  --dark-20: #2f2f37;
-  --dark-30: #474752; */
-
   --light-03: #fffafa;
-
   --light-12: #fffff0;
 
   --grey-40: #62646c;
